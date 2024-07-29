@@ -97,7 +97,7 @@ class Github:
         time.sleep(2)
         self.browser.close()
         
-g = Github("Omeryldzz","oy159753258456")
+g = Github("Username","password")
 # g.sign_in()
 g.findRepos("Python")
 # g.get_followers()
